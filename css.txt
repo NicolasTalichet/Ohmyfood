@@ -1,0 +1,254 @@
+.font-title {
+    font-family: 'Shrikhand', cursive; // Police pour les logos et titres
+
+}
+
+.font-text {
+    font-family: 'Roboto', sans-serif; // Police pour le texte
+}
+
+.root {
+    --primary-color: #9356DC; // Couleur primaire
+    --secondary-color: #FF79DA; // Couleur secondaire
+    --tertiary-color: #99E2D0; // Couleur tertiaire
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+}
+
+/****** HEADER ***********/
+
+.title {
+    text-align: center;
+    margin: 0px;
+}
+
+.localisation-title {
+    color: var(--Grey, #353535);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.localisation {
+    display: flex;
+    justify-content: center;
+    background: var(--Grey-2, #EAEAEA);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.localisation-icon {
+    margin-right: 17px;
+}
+
+/********* RESERVATION BUTTON *********/
+.reservation {
+    height: 375px;
+    background: var(--Background, #F6F6F6);
+}
+
+.reservation-title {
+    margin: 0px;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reservation-p {
+    color: var(--Grey, #353535);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.button-align {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.button-style {
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
+    color: var(--White, #FFF);
+    text-align: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 16px;
+}
+
+/********* FUNCTIONING BUTTON *********/
+.functioning {
+    height: 375px;
+}
+
+.fonctioning-text {
+    padding-top: 38px;
+    padding-left: 20px;
+    font-size: 24px;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.logo-align {
+    margin-right: 28px;
+}
+
+.button-align1 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-style1 {
+    margin-bottom: 20px;
+    width: 322.486px;
+    height: 72.379px;
+    border-radius: 20px;
+    color: #000;
+    text-align: center;
+    background: var(--Background, #F6F6F6);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/********* RESTAURANTS *********/
+.restaurants {
+    display: flex;
+    justify-content: center;
+    height: 1250px;
+    background-color: #F6F6F6;
+}
+
+.restaurants-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.restaurants-title {
+    padding-top: 48px;
+    padding-left: 10px;
+    font-size: 24px;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.restaurants-text {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.restaurants-text1 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.restaurants-card {
+    margin-bottom: 18px;
+    width: 340px;
+    height: 251px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.restaurants-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+/********* FOOTER *********/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 250px;
+    width: 100%;
+    background: var(--Grey, #353535);
+}
+
+.footer-align {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: var(--White, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-text {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-text1 {
+    margin: 10px;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
