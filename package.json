@@ -1,0 +1,26 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "animations css d'un site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasTalichet/Ohmyfood.git"
+  },
+  "keywords": [
+    "scss",
+    "css"
+  ],
+  "author": "nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasTalichet/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/NicolasTalichet/Ohmyfood#readme",
+  "dependencies": {
+    "sass": "^1.83.1"
+  }
+}
