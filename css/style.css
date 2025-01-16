@@ -1,0 +1,222 @@
+.button-style {
+  color: red;
+}
+
+.root {
+  --grey-color: $grey-color;
+  --grey-color-2: $grey-color-2;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  font-family: "Shrikhand", cursive;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  background: #EAEAEA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+.localisation .localisation-title {
+  color: #353535;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.localisation .localisation-icon {
+  margin-right: 17px;
+}
+
+.reservation {
+  height: 375px;
+  background: #F6F6F6;
+}
+.reservation .reservation-title {
+  margin: 0;
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.reservation .reservation-p {
+  color: #353535;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.button-align {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.button-align .button-style {
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+  color: #FFF;
+  text-align: center;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 16px;
+}
+
+.functioning {
+  height: 375px;
+}
+
+.functioning-number {
+  position: absolute;
+  left: 25px;
+}
+
+.fonctioning-text {
+  padding-top: 38px;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo-align {
+  margin-right: 28px;
+}
+
+.button-align1 {
+  display: flex;
+  justify-content: center;
+}
+.button-align1 .button-style1 {
+  margin-bottom: 20px;
+  width: 322.486px;
+  height: 72.379px;
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  background: #F6F6F6;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.restaurants {
+  display: flex;
+  justify-content: center;
+  height: 1250px;
+  background-color: #F6F6F6;
+}
+.restaurants .restaurants-column {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .restaurants-title {
+  padding-top: 48px;
+  padding-left: 10px;
+  font-size: 24px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.restaurants .restaurants-card {
+  margin-bottom: 20px;
+  width: 340px;
+  height: 251px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.restaurants .restaurants-text {
+  margin: 10px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.restaurants .restaurants-text1 {
+  margin: 10px;
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.restaurants-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  height: 250px;
+  width: 100%;
+  background: #353535;
+}
+.footer .footer-align {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer-logo {
+  margin: 20px 10px 10px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer .footer-text {
+  margin: 0 10px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer .footer-text1 {
+  margin: 10px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
